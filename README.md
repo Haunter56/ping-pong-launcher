@@ -42,6 +42,6 @@ while True:
     GPIO.cleanup
 ```
 
-Installing GPIO: https://www.raspberrypi-spy.co.uk/2012/05/install-rpi-gpio-python-library/
+Adding GPIO: https://www.raspberrypi-spy.co.uk/2012/05/install-rpi-gpio-python-library/
 
 
