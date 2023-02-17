@@ -15,9 +15,7 @@ import time
 UDP_IP = "0.0.0.0" # listen to everything
 UDP_PORT = 12345 # port
 
-# the number 18 is for pin#18 which is GPIO #24
-# the number 7 is for pin#7 which is GPIO #4
-in2 = 7
+in2 = 7  # the number 7 is for pin#7 which is GPIO #4
 GPIO.setwarnings(False)
 GPIO.setmode(GPIO.BOARD)
 GPIO.setup(in2, GPIO.OUT)
