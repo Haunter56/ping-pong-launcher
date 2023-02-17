@@ -8,6 +8,7 @@ TlM0RR+LCAAAAAAABACdVltzokgUfp+q+Q+uz2uKqwlTNQ+Cippoggoi6zz0TSQ2NMtFxan579tATLwk
 
 Here is the python code:
 
+```
 import socket
 import RPi.GPIO as GPIO
 import time
@@ -33,3 +34,4 @@ while True:
     GPIO.output(in2, True)
 
     GPIO.cleanup
+```
